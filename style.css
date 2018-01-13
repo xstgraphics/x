@@ -185,6 +185,7 @@ footer h5 {
 	right: 0;
 	bottom: 0;
 	background: #fff;
+	border-radius: 10px;
 	-webkit-transform: scale(0);
 	transform: scale(0);
 	-webkit-transition-property: transform;
