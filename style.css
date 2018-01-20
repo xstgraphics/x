@@ -45,8 +45,8 @@ h6 {
 
 .b1 {
 	background-color: #000000;
-	margin: 0;
-	padding: 190px 60px;
+	margin: 0 0 40px 0;
+	padding: 190px 40px;
 	background: url(BG1.jpg);
 	background-position: center;
 	}
@@ -54,7 +54,7 @@ h6 {
 .b1 h1 {
 	font-weight: 100;
 	text-align: center;
-	color: #555;
+	color: #999;
 	width: 100%;
 	line-height: 120%;
 	}
@@ -64,36 +64,36 @@ h6 {
 	}
 
 .b2 {
-	padding: 70px 0;
+	padding: 40px 0;
 	}
 
 .b2 h1 {
 	font-weight: 100;
 	text-align: center;
 	color: #555;
-	margin: 0 0 30px 0;
+	margin: 20px 0;
 	}
 
 .b2 h4 {
 	font-weight: 300;
 	text-align: center;
 	color: #555;
-	margin: 0;
+	margin:15px 0;
 	}
 
 .b3 {
-	padding: 70px 0;
+	padding: 40px 0;
 	}
 
 .b3 h1 {
 	font-weight: 100;
 	text-align: center;
 	color: #555;
-	margin: 0 0 30px 0;
+	margin: 20px 0;
 	}
 
 .b3 h5 {
-	margin: 30px 0 0 0;
+	margin: 15px 0;
 	color: #555;
 	font-weight: 300;
 	text-align: center;
@@ -105,9 +105,17 @@ h6 {
 	font-weight: 500;
 	}
 	
+.b3 .separator {
+	border-bottom-style: solid;
+	border-color: #111;
+	border-width: 1px;
+	width: 500px;
+	margin: 0 auto;
+	}
+
 #t1 {
    width: 40%;
-   margin: auto;
+   margin: 15px auto;
    color: #555;
 	}
 	
@@ -129,13 +137,17 @@ h6 {
 	padding: 3px 15px;
 	}
 	
+footer {
+	padding: 40px 0 0 0;
+	}
+	
 footer h5 {
 	text-align: center;
 	color: #555;
 	font-weight: 300;
 	}
 	
-#pasek {
+#tmpp {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -150,6 +162,60 @@ footer h5 {
 	z-index: 100;
 	}
 
+#support {
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+	padding: 10px;
+	border-radius: 10px;
+	text-align: center;
+	font-family: Roboto, sans-serif;
+	background-color: rgba(10, 10, 10, 1);
+	font-size: 13px;
+	font-weight: 300;
+	color: rgba(75, 75, 75, 1);
+	z-index: 100;
+	}
+	
+#support img {
+	height: 25px;
+	width: 25px;
+	padding: 0 5px;
+	position: static;
+	float: left;
+	}
+
+#support img:hover {
+	height: 25px;
+	width: 25px;
+	padding: 0 5px;
+	position: static;
+	float: left;
+	opacity: 0.7;
+	}
+	
+#support p {
+	font-weight: 500;
+	padding: 0 0 5px 0;
+	margin: 0;
+	vertical-align: middle;
+	}
+	
+#support p1 {
+	font-weight: 300;
+	margin: 0;
+	padding-left: 5px;
+	line-height: 25px;
+	vertical-align: middle;
+	float: left;
+	}
+
+#
+.sup1 {
+	height: 25px;
+	padding: 0 5px;
+	}
+	
 1tmp {
 	padding: 20px 0;
 	}
@@ -163,7 +229,7 @@ footer h5 {
 	text-align: center;
 	margin: auto;
 	padding: 8px;
-	color: #555;
+	color: #999;
 	display: block;
 	vertical-align: middle;
 	-webkit-transform: perspective(1px) translateZ(0);
@@ -207,9 +273,18 @@ footer h5 {
 
 @keyframes anim1 {
 	0% {
+	border-color: rgba(153, 153, 153, 0)	
+	}
+	100% {
+	border-color: rgba(153, 153, 153, 1)	
+	}
+	}
+	
+@keyframes anim1 {
+	0% {
 	border-color: rgba(85, 85, 85, 0)	
 	}
 	100% {
 	border-color: rgba(85, 85, 85, 1)	
 	}
-	}	
+	}
