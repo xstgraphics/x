@@ -273,18 +273,9 @@ footer h5 {
 
 @keyframes anim1 {
 	0% {
-	border-color: rgba(153, 153, 153, 0)	
+	border-color: rgba(256, 256, 256, 0)	
 	}
 	100% {
-	border-color: rgba(153, 153, 153, 1)	
-	}
-	}
-	
-@keyframes anim1 {
-	0% {
-	border-color: rgba(85, 85, 85, 0)	
-	}
-	100% {
-	border-color: rgba(85, 85, 85, 1)	
+	border-color: rgba(256, 256, 256, 1)	
 	}
 	}
