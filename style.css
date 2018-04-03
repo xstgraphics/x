@@ -1,18 +1,32 @@
-<!DOCTYPE html>
-	<head>
-		<meta charset="UTF-8"/>
-		<link href='' rel='icon' type='image/png'/>
-		<link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900' rel='stylesheet'/>
-		<link rel="Stylesheet" type="text/css" href="style.css"/>
-		<link crossorigin='anonymous' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' integrity='sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN' rel='stylesheet'/>
-		<title>XST Graphics</title>
-	</head>
-	
-	<body>
-		<div class="content">
-			<img src="NZ4uDpB.png">
-			<p>Welcome to XST Graphics</p>
-		</div>
-	</body>
-	
-</html>
+@font-face {
+	font-family: cour;
+	src:url(cour.ttf);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #000;
+	font-family: cour;
+}
+
+.content {
+	width: 500px;
+	height: 400px;
+	margin: -200px -250px;
+	position: absolute;
+	top: 50%;
+	left: 50%
+}
+
+.content img {
+	width: 140px;
+	margin: 0 auto;
+	display: block;
+}
+
+.content p {
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+}
