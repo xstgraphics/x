@@ -1,46 +1,18 @@
-body {
-	width: 100%;
-	height: 100vh;
-	margin: 0;
-	padding: 0;
-	font-family: Roboto;
-	background: #fff;
-}
-
-.panel {
-	width: 270px;
-	height: 100%;
-	background: #000;
-}
-
-.panel-content {
-	padding: 15px;
-	width: auto;
-}
-
-.panel-content img {
-	padding: 40px 0;
-	display: block;
-	position: relative;
-	margin: 0 25px;
-	width: 150px;
-}
-
-.menu a {
-	margin: 20px 25px;
-	display: block;
-	text-decoration: none;
-}
-
-.menu a span {
-	color: #fff;
-	padding: 2px 5px;
-	font-size: 12px;
-	font-weight: 900;
-	letter-spacing: 2px;
-}
-
-.menu a span:hover {
-	color: #000;
-	background: #fff;
-}
+<!DOCTYPE html>
+	<head>
+		<meta charset="UTF-8"/>
+		<link href='' rel='icon' type='image/png'/>
+		<link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900' rel='stylesheet'/>
+		<link rel="Stylesheet" type="text/css" href="style.css"/>
+		<link crossorigin='anonymous' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' integrity='sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN' rel='stylesheet'/>
+		<title>XST Graphics</title>
+	</head>
+	
+	<body>
+		<div class="content">
+			<img src="NZ4uDpB.png">
+			<p>Welcome to XST Graphics</p>
+		</div>
+	</body>
+	
+</html>
